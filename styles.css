@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    font-size: 0.85em;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+}
+
+.page-content {
+    min-height: 70vh;
+}
+
+/* Custom badge colors for conditions */
+.badge-baik {
+    background-color: #28a745;
+}
+
+.badge-rusak-ringan {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-rusak-berat {
+    background-color: #dc3545;
+}
+
+/* Hover effects */
+.btn {
+    transition: all 0.2s ease;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* Loading spinner */
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Custom pagination */
+.pagination .page-link {
+    border-radius: 0.25rem;
+    margin: 0 0.15rem;
+}
+
+/* Form validation */
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    border-color: #28a745;
+}
